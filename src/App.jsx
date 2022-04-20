@@ -5,8 +5,8 @@ import { ethers } from "ethers";
 import myEpicNft from './utils/MyEpicNFT.json'
 
 // Constants
-const TWITTER_HANDLE = '_buildspace';
-const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
+const TWITTER_HANDLE = 'bet_hold';
+const TWITTER_LINK = `https://twitter.com/${bet_hold}`;
 const OPENSEA_LINK = '';
 const TOTAL_MINT_COUNT = 50;
 
@@ -16,7 +16,7 @@ const CONTRACT_ADDRESS = "0x35ab51273634761134b77A2541163De81A3602e5"
 const App = () => {
 
   /*
-  * Just a state variable we use to store our user's public   wallet. Dont forget to import useState
+  * Just a state variable we use to store our user's public wallet. Dont forget to import useState
   */
   const [currentAccount, setCurrentAccount] = useState("");
   
